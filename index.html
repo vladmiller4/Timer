@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/font.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="block1">
+            <div class="wrapper">
+                <div class="mainDate">
+                    <div class="dateDiv">
+                        <p class="date"></p>
+                    </div>
+                    <div class="timeDiv">
+                        <p class="time"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block2">
+            <div class="wrapper flex">
+                <div class="stopwatch">
+                    <div>
+                        <div class="pStopDiv">
+                            <p>00:00:00</p>
+                        </div>
+                        <form name="f1" class="f1">
+                            <input type="button" value="START">
+                            <input type="button" value="LOOP">
+                            <input type="button" value="STOP">
+                            <input type="button" value="RESET">
+                        </form>
+                    </div>
+                </div>
+                <div class="result"></div>
+            </div>
+        </div>
+        <div class="block3">
+            <div class="wrapper flex">
+                <div class="setTimer">
+                    <div>
+                        <p class="setTimerDig">25</p>
+                        <p class="setTimerMin">MINUTES</p>
+                        <form name="f2" class="f2">
+                            <input type="button" value="-" id="f2button">
+                            <input type="button" value="+" id="f2button">
+                        </form>
+                    </div>
+                </div>
+                <div class="timer">
+                    <div>
+                        <p class="timerDig">00:00</p>
+                        <hr>
+                        <form name="f3" class="f3">
+                            <input type="button" value="START" id="f3button">
+                            <input type="button" value="STOP" id="f3button">
+                            <input type="button" value="RESET" id="f3button">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

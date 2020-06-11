@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Digital', serif;
+    background: rgb(11, 4, 31);
+    background: linear-gradient(90deg, rgba(11, 4, 31, 1) 0%, rgba(24, 4, 40, 1) 100%);
+    color: #00ff89;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.block1,
+.block2,
+.block3 {
+    display: flex;
+    justify-content: center;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    height: 30vh;
+    margin-bottom: 5vh;
+    border: 1px solid #cbddf0;
+}
+
+.block3 {
+    margin-bottom: 0;
+}
+
+.mainDate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dateDiv {
+    margin: 15px auto 0;
+}
+
+.timeDiv {
+    margin: 0 auto;
+}
+
+.date {
+    margin-bottom: 10px;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.time {
+    font-size: 150px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stopwatch {
+    width: 40%;
+    height: 80%;
+    font-size: 112px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pStopDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.result {
+    border: 1px solid #00ff89;
+    border-radius: 5px;
+    width: 40%;
+    height: 80%;
+    font-size: 58px;
+    padding-top: 18px;
+    overflow-y: scroll;
+}
+
+.result>p {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.f1,
+.f2,
+.f3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=button] {
+    width: 80px;
+    height: 35px;
+    background-color: #27264a;
+    border: 1px solid #cbddf0;
+    border-radius: 5px;
+    color: #00ff89;
+    font-size: 15px;
+    outline: none;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+    border: 1px solid #00ff89;
+}
+
+.setTimer {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.setTimerDig {
+    font-size: 130px;
+    text-align: center;
+}
+
+.setTimerMin {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#f2button {
+    width: 55px;
+}
+
+.timer {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.timerDig {
+    font-size: 130px;
+    text-align: center;
+}
+
+#f3button {
+    margin-top: 25px;
+    height: 60px;
+}
